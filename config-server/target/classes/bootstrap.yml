@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/aggrey-aggrey/spring-cloud-config-server-repo-for-twitter-to-kafka-service.git
+          default-label: main
+          username: aggrey-aggrey
+          password: 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
+          clone-on-start: true
+    fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: CME(NLKkQvXuBKXyKO5qPnzwsQO2UKJx+AzkwSEZH/H+7R8=)
+
+jasypt:
+  encryptor:
+    password: ${ENCRYPT_KEY}
