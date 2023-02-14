@@ -1637,3 +1637,5 @@ Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/aggrey
 2023-02-13 17:42:04 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
 2023-02-13 17:42:05 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/shem/AppData/Local/Temp/config-repo-5129213759396494091/config-client-twitter_to_kafka.yml
 2023-02-13 17:42:05 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/C:/Users/shem/AppData/Local/Temp/config-repo-5129213759396494091/config-client.yml
+2023-02-13 20:24:49 [Thread-3] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\shem\AppData\Local\Temp\config-repo-5129213759396494091\.git\objects\pack\pack-8a90e23189db01292866844fb109ee34ed9c7fb1.idx
+2023-02-13 20:24:50 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
