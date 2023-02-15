@@ -13,6 +13,8 @@
 		<module>config-server</module>
 		<module>kafka/kafka-consumer</module>
 		<module>kafka-to-elastic-service</module>
+		<module>elastic</module>
+
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -163,6 +165,12 @@
 				<groupId>org.apache.avro</groupId>
 				<artifactId>avro</artifactId>
 				<version>${avro.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+				<version>${spring-boot.version}</version>
 			</dependency>
 
 
