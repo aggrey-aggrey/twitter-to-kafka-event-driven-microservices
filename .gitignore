@@ -3,7 +3,10 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
+../kafka/kafka-model/target/*
+kafka/kafka-admin/target/*
+kafka/kafka-model/target/*
+kafka/kafka-producer/target/*
 
 *.log
 
